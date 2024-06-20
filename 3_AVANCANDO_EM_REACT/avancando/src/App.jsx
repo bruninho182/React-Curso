@@ -4,6 +4,8 @@ import viteLogo from '/vite.svg'
 import './App.css'
 
 import Img02 from './assets/img02.jpg'
+import ManageData from './components/ManageData'
+import ListRender from './components/ListRender'
 
 function App() {
 
@@ -18,6 +20,8 @@ function App() {
         <div>
             <img src={Img02} alt="Animal" />
         </div>
+        <ManageData />
+        <ListRender />
       </div>
 
   )
